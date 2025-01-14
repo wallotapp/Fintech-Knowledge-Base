@@ -1,0 +1,22 @@
+{
+	"author": "Kamar Mack <https://github.com/kamarmack>",
+	"bugs": "https://github.com/wallotapp/Fintech-Knowledge-Base/issues",
+	"description": "Interactive roadmaps, guides and other educational content to help people learn about FinTech.",
+	"devDependencies": {
+		"doctoc": "^2.2.1",
+		"husky": "^9.1.7",
+		"prettier": "^3.4.2"
+	},
+	"homepage": "https://learn.wallot.app",
+	"name": "learn.wallot.app",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/wallotapp/Fintech-Knowledge-Base.git"
+	},
+	"scripts": {
+		"format": "doctoc . && prettier --write .",
+		"prepare": "husky install && chmod +x .husky/*"
+	},
+	"version": "1.0.0-alpha.0"
+}

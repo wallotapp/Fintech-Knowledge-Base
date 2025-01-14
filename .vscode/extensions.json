@@ -1,0 +1,25 @@
+{
+	"recommendations": [
+		"GitHub.copilot-chat",
+		"actboy168.tasks",
+		"adam-bender.commit-message-editor",
+		"angelo-breuer.clock",
+		"bierner.markdown-mermaid",
+		"bradlc.vscode-tailwindcss",
+		"christian-kohler.path-intellisense",
+		"eamodio.gitlens",
+		"enkia.tokyo-night",
+		"esbenp.prettier-vscode",
+		"fivepointseven.vscode-theme-onedark-vivid",
+		"github.copilot",
+		"github.vscode-github-actions",
+		"github.vscode-pull-request-github",
+		"huytd.tokyo-city",
+		"jacobparis.stripe-docs-theme",
+		"naumovs.color-highlight",
+		"nycdude.nyc-lights",
+		"streetsidesoftware.code-spell-checker",
+		"unifiedjs.vscode-mdx",
+		"vsls-contrib.gistfs"
+	]
+}

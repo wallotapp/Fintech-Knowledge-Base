@@ -1,0 +1,19 @@
+{
+	"build": {
+		"dockerfile": "../Dockerfile",
+		"context": ".."
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"terminal.integrated.shell.linux": "/bin/bash"
+			}
+		}
+	},
+	"forwardPorts": [],
+	"name": "Wallot Knowledge Base Dev Container",
+	"postStartCommand": "chmod +x ./scripts/on-start-container.sh && bash ./scripts/on-start-container.sh",
+	"remoteEnv": {
+		"DEVCONTAINER": "true"
+	}
+}
